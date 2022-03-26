@@ -1,0 +1,22 @@
+.btn {
+  color: var(--white);
+  background-color: var(--pale-black);
+  padding: 10px;
+  border-radius: var(--bd-radius-sm);
+  border: solid 1px var(--black);
+  cursor: pointer;
+  font-size: inherit;
+  transition: transform 0.5s, box-shadow 0.5s, background-color 0.2s;
+}
+
+.btn:hover {
+  transform: translate(-10px, -10px);
+  box-shadow: 5px 5px 0 0 var(--black), 10px 10px 0 0 var(--black),
+    15px 15px 0 0 var(--pale-black);
+}
+
+.btn:active {
+  transform: translate(-5px, -5px);
+  box-shadow: 3px 3px 0 0 var(--black), 6px 6px 0 0 var(--black),
+    9px 9px 0 0 var(--pale-black);
+}

@@ -1,0 +1,60 @@
+:root {
+  /* color */
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(0, 0%, 96%);
+  --dark-gray: hsl(0, 0%, 88%);
+  --black: hsl(0, 0%, 0%);
+  --pale-black: hsl(0, 0%, 30%);
+  --lighter-black: hsl(0, 0%, 50%);
+  --blue: #0057b7;
+  --yellow: #ffd700;
+
+  /* fonts */
+  --ff-light: Poppins-Light;
+  --ff-reg: Poppins-Regular;
+  --ff-md: Poppins-Medium;
+  --ff-bold: Poppins-Bold;
+
+  --fs-xsm: 0.7rem;
+  --fs-sm: 0.9rem;
+  --fs-md: 1rem;
+  --fs-lg: 2rem;
+  --fs-xlg: 2.5rem;
+
+  /* layout */
+  --pad-x: 60px;
+  --pad-y: 10px;
+  --pad: var(--pad-y) var(--pad-x);
+
+  /* others */
+  --smallest-index: 1;
+  --small-index: 2;
+  --high-index: 50;
+  --higher-index: 90;
+  --highest-index: 100;
+
+  --bd-radius-xsm: 3px;
+  --bd-radius-sm: 5px;
+  --bd-radius-md: 10px;
+  --bd-radius-lg: 20px;
+  --bd-radius-xlg: 50px;
+
+  --primary-footer-height: 45px;
+
+  --box-shadow-v1: 0 0 3px 1px var(--pale-black);
+
+  /* bezier curves */
+  --draggy: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@media (max-width: 700px) {
+  :root {
+    --pad-x: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  :root {
+    --pad-x: 30px;
+  }
+}

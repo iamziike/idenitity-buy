@@ -1,0 +1,4 @@
+.seachboxOptions input {
+  background-color: transparent;
+  border-bottom: solid 1px var(--dark-gray);
+}

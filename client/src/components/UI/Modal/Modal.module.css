@@ -1,0 +1,46 @@
+.backdrop,
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: var(--highest-index);
+}
+
+.backdrop {
+  background-color: hsla(0, 0%, 0%, 0.764);
+}
+
+.modal {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.close {
+  position: absolute;
+  top: calc(var(--pad-y) * 4);
+  right: var(--pad-x);
+  animation: rotate 4s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.close:hover {
+  animation-play-state: paused;
+}
+
+.close > * {
+  fill: var(--white);
+  transform: scale(1.5);
+  cursor: pointer;
+}

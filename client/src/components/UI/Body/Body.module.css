@@ -1,0 +1,27 @@
+.body {
+  --top-child-height: 95px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  font-family: var(--ff-reg), sans-serif;
+  color: var(--pale-black);
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 0, #fff 100%),
+    fixed 0 0 /20px 20px radial-gradient(#d1d1d1 1px, transparent 0),
+    fixed 10px 10px /20px 20px radial-gradient(#d1d1d1 1px, transparent 0) no-repeat;
+  overflow: hidden;
+}
+
+.body > *:nth-child(1) {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: var(--high-index);
+}
+
+.body > *:nth-child(2) {
+  flex: 1;
+  padding-top: var(--top-child-height);
+}

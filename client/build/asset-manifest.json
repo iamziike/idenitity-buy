@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d5193cb3.css",
+    "main.js": "/static/js/main.a3ae1acd.js",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/logo.svg": "/static/media/logo.c912d086edf9690b3f70aeaba1d0dda9.svg",
+    "static/media/next-svgrepo-com.svg": "/static/media/next-svgrepo-com.cb6cf7de2f714b99fe16b6a77950aee0.svg",
+    "index.html": "/index.html",
+    "static/media/shopping_cart_black_24dp.svg": "/static/media/shopping_cart_black_24dp.0f0cd44e7206cc6af6327851ca250b91.svg",
+    "static/media/shopping_bag_black_24dp.svg": "/static/media/shopping_bag_black_24dp.b90b59eb79bc704b140445eedf4834e5.svg",
+    "static/media/person_add_black_24dp.svg": "/static/media/person_add_black_24dp.d998dbb9a6ad9e44a0349fda5ee3202d.svg",
+    "static/media/login_black_24dp.svg": "/static/media/login_black_24dp.d3c02bbe38c9daf1eef92202f5f42e9c.svg",
+    "static/media/logout_black_24dp.svg": "/static/media/logout_black_24dp.c99a6b9dce578e2f5999f3a1dc891f47.svg",
+    "static/media/close_black_24dp.svg": "/static/media/close_black_24dp.244b66874c46718f7e0607d3acebaccf.svg",
+    "static/media/expand_more_black_24dp.svg": "/static/media/expand_more_black_24dp.8322b254aa7db62c20fde7acc6f5c150.svg",
+    "main.d5193cb3.css.map": "/static/css/main.d5193cb3.css.map",
+    "main.a3ae1acd.js.map": "/static/js/main.a3ae1acd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5193cb3.css",
+    "static/js/main.a3ae1acd.js"
+  ]
+}

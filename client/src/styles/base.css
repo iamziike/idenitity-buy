@@ -1,0 +1,8 @@
+*::selection {
+  background-color: var(--yellow);
+  color: var(--blue);
+}
+
+* {
+  caret-color: var(--yellow);
+}

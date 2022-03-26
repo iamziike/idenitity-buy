@@ -1,0 +1,50 @@
+.howitworks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--pad);
+  gap: 5px;
+}
+
+.howitworks li {
+  font-family: var(--ff-md);
+  font-size: var(--fs-xlg);
+  list-style: circle;
+  text-align: left;
+}
+
+.emphasize {
+  background-color: var(--pale-black);
+  color: var(--white);
+  font-size: var(--md);
+}
+
+@media (max-width: 702px) {
+  .howitworks li {
+    font-size: var(--fs-lg);
+  }
+}
+
+@media (max-width: 600px) {
+  .howitworks li {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .howitworks li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .howitworks li {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .howitworks li {
+    font-size: 1rem;
+  }
+}

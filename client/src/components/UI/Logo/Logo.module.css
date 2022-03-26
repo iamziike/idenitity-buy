@@ -1,0 +1,12 @@
+.logo {
+  width: 100px;
+}
+
+.logo svg {
+  width: 100%;
+  height: 50px;
+}
+
+.logo svg > * {
+  fill: var(--black);
+}

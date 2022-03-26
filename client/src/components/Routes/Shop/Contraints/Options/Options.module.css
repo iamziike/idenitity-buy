@@ -1,0 +1,40 @@
+.options svg {
+  transition: transform 0.4s;
+  opacity: 0.5;
+}
+
+.options--open {
+  z-index: var(--smallest-index);
+}
+
+.options--open svg {
+  transform: rotateZ(180deg);
+}
+
+.title {
+  cursor: pointer;
+}
+
+.options-types {
+  position: absolute;
+  top: calc(100% + var(--pad-y));
+  height: max-content;
+  width: max-content;
+  padding: var(--pad-y);
+  background-color: var(--light-gray);
+  box-shadow: 0px 0px 2px var(--pale-black);
+  border-radius: 0 0 var(--bd-radius-sm) var(--bd-radius-sm);
+  transition: transform 0.5s var(--draggy);
+}
+
+.options-types--snap-to-left {
+  left: 0;
+}
+
+.options-types--snap-to-right {
+  right: 0;
+}
+
+.options-types--no-display {
+  transform: translateX(200vw);
+}

@@ -1,0 +1,22 @@
+.checkboxOptions > * {
+  cursor: pointer;
+}
+
+.checkboxOptions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: var(--fs-xsm);
+  gap: 10px;
+  align-items: center;
+}
+
+.checkboxOptions > * {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--ff-light), sans-serif;
+}
+
+.checkboxOptions input:checked ~ * {
+  font-weight: bolder;
+}

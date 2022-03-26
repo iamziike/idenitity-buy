@@ -1,0 +1,59 @@
+.loader {
+  font-family: monospace, sans-serif;
+  font-size: var(--fs-xlg);
+  color: var(--white);
+}
+
+.loader_text {
+  animation: pulsing 1s alternate both infinite;
+}
+
+.loader_text::after {
+  content: '';
+  animation: more_dots 4s linear alternate both infinite;
+}
+
+@keyframes pulsing {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes more_dots {
+  0% {
+    content: '';
+  }
+  10% {
+    content: '.';
+  }
+  20% {
+    content: '..';
+  }
+  30% {
+    content: '...';
+  }
+  40% {
+    content: '....';
+  }
+  50% {
+    content: '.....';
+  }
+  60% {
+    content: '......';
+  }
+  70% {
+    content: '.......';
+  }
+  80% {
+    content: '........';
+  }
+  90% {
+    content: '.........';
+  }
+  100% {
+    content: '..........';
+  }
+}
