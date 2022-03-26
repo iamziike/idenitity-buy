@@ -20,9 +20,7 @@ const Header = () => {
 
   return (
     <header className={classes.header}>
-      <div className={classes.header__message}>
-        <a href='https://savelife.in.ua/en/donate/'>I Stand With Ukraine</a>
-      </div>
+      <div className={classes.header__message}>I Stand With Ukraine</div>
       <div className={classes.header__bottom}>
         <Link to='/' className={classes.logo}>
           <Logo />
