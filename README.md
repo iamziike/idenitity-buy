@@ -1,6 +1,6 @@
 # Identity Buy
 
-Idenitity Buy is just a hobby project where users can get a list of identities they may want to "assume"
+Idenitity Buy is just a hobby project where users can get a list of identities they may want to "assume".
 
 ## Code Structure
 
@@ -16,7 +16,7 @@ Before you can work on this project locally you've gotta have these setup alread
 
 ---
 
-After done with the above
+After you are done with the above
 
 ```bash
 git clone https://github.com/iamziike/idenitity-buy.git
@@ -28,4 +28,4 @@ cd ./client && npm install && npm start
 
 ## Finally
 
-If these setup may be a tiredsome, you can try it [here](https://pages.github.com/), client is hosted on Firebase and server on Heroku
+If this setup may be a tiredsome, you can try it live [here](https://identity-buy-9ffa8.web.app/), client is hosted on Firebase and server on Heroku
