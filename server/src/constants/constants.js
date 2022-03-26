@@ -1,0 +1,17 @@
+module.exports.ID = 'id';
+module.exports.NAME = 'name';
+module.exports.AVATAR = 'avatar';
+module.exports.GENDER = 'gender';
+module.exports.AGE = 'age';
+module.exports.MALE = 'male';
+module.exports.FEMALE = 'female';
+module.exports.COUNTRY_SHRT = 'country_shrt';
+module.exports.NATIONALITY = 'nationality';
+module.exports.FLAG = 'flag';
+module.exports.DENONYMS = 'denonyms';
+module.exports.PRICE = 'price';
+module.exports.ASC = 'asc';
+module.exports.DESC = 'desc';
+module.exports.UNIT_PRICE = 9.99;
+module.exports.UNIT_PRICE_CURRENCY = 'usd';
+module.exports.UNIT_PRICE_CURRENCY_SYMBOL = '$';
